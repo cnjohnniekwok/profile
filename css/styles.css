@@ -61,7 +61,7 @@ hr {
 }
 
 .intro {
-  margin: auto 20%;
+  margin: auto 10%;
 }
 
 .middle-container {
@@ -124,6 +124,7 @@ hr {
 }
 
 .contact-message {
+  width: 60%;
   margin: 40px auto 20px;
 }
 
