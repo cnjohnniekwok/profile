@@ -47,8 +47,9 @@ hr {
 }
 
 .my-name-homepage {
-  font-family: 'Sacramento', cursive;
-  font-size: 5.625rem;
+  color: #383E56;
+  font-family: 'Delius Unicase', cursive;
+  font-size: 3.625rem;
 }
 
 .title-text {
@@ -172,9 +173,7 @@ hr {
   }
 
   .my-name-homepage {
-    color: #383E56;
-    font-family: 'Sacramento', cursive;
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     text-align: center
   }
 
