@@ -38,7 +38,7 @@ hr {
 .header2{
   font-size: 2.5rem;
   font-weight: normal;
-  padding-bottom: 10px;
+  padding-top: 20px;
 }
 
 .profile-bg-img {
@@ -46,10 +46,15 @@ hr {
   margin-left: 50%
 }
 
+.profile-avatar{
+  margin: auto 25%;
+}
+
 .my-name-homepage {
   color: #383E56;
-  font-family: 'Delius Unicase', cursive;
-  font-size: 3.625rem;
+  font-family: 'Amatic SC', cursive;
+  /* font-family: 'Delius Unicase', cursive; */
+  font-size: 4.625rem;
 }
 
 .title-text {
@@ -125,7 +130,7 @@ hr {
 }
 
 .contact-message {
-  width: 60%;
+  width: 50%;
   margin: 40px auto 20px;
 }
 
@@ -138,6 +143,21 @@ hr {
 .code-img {
   width: 80%;
   margin: auto 20px auto 20px;
+}
+
+.code-col-img {
+  width: 30%;
+  margin: auto 20px auto 20px;
+}
+
+.code-col-ca-img{
+  width: 30%;
+  margin: 10px 20px auto 20px;
+}
+
+.code-col-holder{
+  position: relative;
+  margin: auto 5% auto 10%;
 }
 
 .btn {
@@ -167,9 +187,8 @@ hr {
     line-height: 1.5;
   }
 
-  .title-text {
-    padding-top: 200px;
-    padding-bottom: 200px;
+  .profile-avatar{
+    margin: auto 5%;
   }
 
   .my-name-homepage {
