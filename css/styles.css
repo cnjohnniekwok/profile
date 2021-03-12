@@ -178,7 +178,7 @@ hr {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1024px) {
   h2,h3,P {
     text-align: center;
   }
@@ -214,6 +214,11 @@ hr {
 
   .contact-me {
     margin: 40px auto 60px;
+  }
+
+  .code-col-holder{
+    position: relative;
+    margin: auto 5% auto 20%;
   }
 
   .contact-message {
