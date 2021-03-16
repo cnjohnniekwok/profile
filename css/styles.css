@@ -186,7 +186,7 @@ hr {
   }
 
   .header2 {
-    font-size: 1.2rem;
+    font-size: 2.25rem;
     font-weight: normal;
     padding-bottom: 10px;
   }
@@ -257,12 +257,12 @@ hr {
     font-size: 0.8rem;
   }
 
-  .header3{
-    font-size: 1.0rem;
-  }
-
   .header2{
     font-size: 1.2rem;
+  }
+
+  .header3{
+    font-size: 1.0rem;
   }
 
   .profile-avatar{
