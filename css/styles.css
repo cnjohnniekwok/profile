@@ -257,6 +257,14 @@ hr {
     font-size: 0.8rem;
   }
 
+  .header3{
+    font-size: 1.2rem;
+  }
+
+  .header2{
+    font-size: 1.5rem;
+  }
+
   .profile-avatar{
     width: 80%
   }
@@ -269,13 +277,5 @@ hr {
 @media only screen and (max-width: 320px) {
   .code-col-img {
     width: 30px;
-  }
-
-  .header3{
-    font-size: 1.2rem;
-  }
-
-  .header2{
-    font-size: 1.5rem;
   }
 }
