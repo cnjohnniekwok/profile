@@ -6,9 +6,26 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+.simpleNav a {
+  color: #495464;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+}
+
+a.backtoTopBtn {
+  color: #495464;
+}
+
 a:hover {
   color: #EEDAD1;
   text-decoration: none
+}
+
+.ejsLogo {
+  color: #000000;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
 h1, h2, h3, P {
@@ -26,13 +43,6 @@ hr {
   width: 4%;
   border-bottom: none;
   margin: 100px auto;
-}
-
-.footer-link {
-  color: #D4B5B0;
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
 }
 
 .header2{
@@ -138,10 +148,18 @@ hr {
   margin: 40px auto 20px;
 }
 
+.footer {
+  margin-bottom: 0px;
+}
+
 .copyright {
   color: #EAF6F6;
   font-size: 0.55rem;
-  padding: 20px 0;
+  padding: 20px;
+}
+
+.nounderline {
+  text-decoration: none !important
 }
 
 .code-img {
@@ -154,14 +172,13 @@ hr {
   margin: 10px 5px 10px;
 }
 
-.btn {
+.contact-me .btn {
   -webkit-border-radius: 9;
   -moz-border-radius: 9;
   border-radius: 9px;
   font-family: 'Montserrat', sans-serif;
   color: #495464;
   font-size: 20px;
-  background: #EABF9F;
   padding: 10px 20px 10px 20px;
   border: solid #383E56 2px;
   text-decoration: none;
@@ -191,18 +208,14 @@ hr {
     padding-bottom: 10px;
   }
 
-  .intro {
-    width: 90%;
-    margin: auto 5%;
-  }
-
   .middle-container {
     width: 90%;
     margin: auto 5%;
   }
 
   .contact-me {
-    margin: 40px auto 60px;
+    width: 90%;
+    margin: auto 5%;
   }
 
   .code-img {
@@ -258,11 +271,11 @@ hr {
   }
 
   .header2{
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 
   .header3{
-    font-size: 1.0rem;
+    font-size: 1.5rem;
   }
 
   .profile-avatar{

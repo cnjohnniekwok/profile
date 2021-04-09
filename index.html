@@ -32,106 +32,80 @@
       </div>
     </div> <!-- top-container -->
 
-    <div class="middle-container">
-      <hr>
+    <div class="space_holder"></div>
+    <div class="middle-container" id="simpleNavBar">
       <h2 class="header2">Hello.</h2>
-      <p class="intro">I am a server support analyst, spent years working with oracle enterprise middleware. I speak Python and C#, moslty a server side person. I am currenlty coding my way towards a full stack programmer. Here is something about me.</p>
+      <p>I am a server support analyst programmer, mostly a server-side person. I speaks Python and Javascript, sometimes C#. Besides banging my head on a keyword coding in all black linux console with vim. I do love working with UI and CGI. Here's something I am working on.</p>
+
+      <hr>
+      <ul class="list-group">
+          <div class="simpleNav">
+            <a href="#reactProject">React</a> |
+            <a href="#ejsProject">EJS</a> |
+            <a href="#blenderProject">Blender</a> |
+            <a href="#unityProject">Unity</a> |
+            <a href="#handCrafts">Handcrafts</a>
+          </div>
+      </ul>
 
       <hr>
       <div class="skills">
-        <h2 class="header2">Backend Experience</h2>
+        <h2 class="header2">Full Stack Web Development</h2>
         <div class="skill-row container">
           <div class="row">
-            <div class="col-lg-4 col-md-4">
-              <img class="code-img" src="icons/python.png" alt="python-logo">
+            <div class="col-lg-4 col-md-4" id="reactProject">
+              <img class="code-img" src="icons/reactJS.png" alt="unity-logo">
             </div>
             <div class="col-lg-8 col-md-8">
-              <h3 class="header3">Programming Languages</h3>
-              <div class="code-col-holder-3">
-                <img class="code-col-img" src="icons/cSharp.png" alt="cSharp-logo">
-                <img class="code-col-img" src="icons/bash.png" alt="bash-logo">
-                <img class="code-col-img" src="icons/nodejs.png" alt="nodejs-logo">
-              </div>
-              <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <h3 class="header3">React <span><a class="backtoTopBtn" href="#simpleNavBar"><i class="far fa-caret-square-up"></i></a></span></h3>
+              <p>An eCommerce website selling unicorn related merchandise. <em>Mo MoNicorn Shop</em> is built with <a href="https://reactjs.org/">React</a> and <a href="https://react-bootstrap.github.io/">React-Bootstrap</a>for frontend rendering. Backend server is built with <a href="https://nodejs.org/en/">Node.js</a>, <a href="https://expressjs.com/">Express.js</a> and <a href="https://www.mongodb.com/cloud/atlas">MongoDB Altas</a></p>
             </div>
           </div> <!-- row -->
-        </div> <!-- skills-row container -->
 
-        <div class="skill-row container">
+          <div class="space_holder"> </div>
+
           <div class="row">
-            <div class="col-lg-4 col-md-4">
-              <img class="code-img" src="icons/Linux.png" alt="Linux-logo">
-            </div>
-            <div class="col-lg-8 col-md-8">
-              <h3 class="header3">Operating system</h3>
-              <div class="code-col-holder-2">
-                <img class="code-col-img" src="icons/redhat.png" alt="redhat-logo">
-                <img class="code-col-img" src="icons/ubuntu.png" alt="ubuntu-logo">
-              </div>
-              <p>I first got introduced to Linux environments when I was freshmen pursuing my first CS Bachelor's degrees. Ever since then, Linux become an eternal entanglement throughout my IT career.</p>
-            </div>
-          </div> <!-- row -->
-        </div> <!-- skills-row container -->
-
-        <div class="skill-row container">
-          <div class="row">
-            <div class="col-lg-4 col-md-4">
-              <img class="code-img" src="icons/oracle.png" alt="oracle-logo">
-            </div>
-            <div class="col-lg-8 col-md-8">
-              <h3 class="header3">Application Server</h3>
-              <p>I juggle two dozens of weblogic domains from testing sites to production environment on daily basis. I trace, identify and eliminate any server problems.</p>
-            </div>
-          </div> <!-- row -->
-        </div> <!-- skills-row container -->
-
-        <div class="skill-row container">
-          <div class="row">
-            <div class="col-lg-4 col-md-4">
-              <img class="code-img" src="icons/mongoDB.png" alt="mongoDB-logo">
-            </div>
-            <div class="col-lg-8 col-md-8">
-              <h3 class="header3">Database Server</h3>
-              <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-          </div> <!-- row -->
-        </div> <!-- skills-row container -->
-      </div> <!-- slills -->
-
-      <hr>
-
-      <div class="skills">
-        <h2 class="header2">Frontend Experience</h2>
-        <div class="skill-row container">
-          <div class="row">
-            <div class="col-lg-4 col-md-4">
-              <img class="code-img" src="icons/htmlCssJs.png" alt="htmlCssJs-logo">
-            </div>
-
-            <div class="col-lg-8 col-md-8">
-              <h3 class="header3">Java Script Frameworks</h3>
-              <div class="code-col-holder-3">
-                <img class="code-col-img" src="icons/reactJS.png" alt="reactJS-logo">
-                <img class="code-col-img" src="icons/bootStrap.png" alt="bootStrap-logo">
-                <img class="code-col-img" src="icons/jQuery.png" alt="jQuery-logo">
-              </div>
-              <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="col-lg">
+              <a href="https://mocounicornshop.herokuapp.com/" target="_blank"><img class="img-fluid"src="arts/moNicorn.png" alt="Mo-Nicorn Shop mobile phone mock up"/></a>
             </div>
           </div> <!-- row -->
         </div> <!-- skills-row container -->
       </div> <!-- skills -->
 
       <hr>
+      <div class="skills">
+        <div class="skill-row container">
+          <div class="row">
+            <div class="col-lg-4 col-md-4" id="ejsProject">
+              <p class="ejsLogo"><%= EJS %></p>
+            </div>
+            <div class="col-lg-8 col-md-8">
+              <h3 class="header3">Embedded JavaScript templating <span><a class="backtoTopBtn" href="#simpleNavBar"><i class="far fa-caret-square-up"></i></a></span></h3>
+              <p>A social platfrom designed for service provider and freelancer to post their ads. <em>Service Mo.Co.</em> is built with <a href="https://ejs.co/">EJS</a> and <a href="https://getbootstrap.com/">Bootstrap</a> for frontend rendering. Backend server is built with <a href="https://nodejs.org/en/">Node.js</a>, <a href="https://expressjs.com/">Express.js</a> and <a href="https://www.mongodb.com/cloud/atlas">MongoDB Altas</a></p>
+            </div>
+          </div> <!-- row -->
 
+          <div class="space_holder"> </div>
+
+          <div class="row">
+            <div class="col-lg">
+              <a href="http://gentle-retreat-53831.herokuapp.com/" target="_blank"><img class="img-fluid"src="arts/mocoService.png" alt="Mo.Co. Service mobile phone mock up"/></a>
+            </div>
+          </div> <!-- row -->
+        </div> <!-- skills-row container -->
+      </div> <!-- skills -->
+
+      <hr>
+      <div class="space_holder"> </div>
       <div class="skills">
         <h2 class="header2">Computer graphics & visual effects</h2>
         <div class="skill-row container">
           <div class="row">
-            <div class="col-lg-4 col-md-4">
+            <div class="col-lg-4 col-md-4" id="blenderProject">
               <img class="code-img" src="icons/blender.png" alt="blender-logo">
             </div>
             <div class="col-lg-8 col-md-8">
-              <h3 class="header3">Blender</h3>
+              <h3 class="header3">Blender <span><a class="backtoTopBtn" href="#simpleNavBar"><i class="far fa-caret-square-up"></i></a></span></h3>
               <p>I came across Blender while searching for a quick video editing software. It certainly did the job, but also opened up a whole new world for me to explore.</p>
             </div>
           </div>
@@ -195,11 +169,11 @@
 
         <div class="skill-row container">
           <div class="row">
-            <div class="col-lg-4 col-md-4">
+            <div class="col-lg-4 col-md-4" id="unityProject">
               <img class="code-img" src="icons/unity.png" alt="unity-logo">
             </div>
             <div class="col-lg-8 col-md-8">
-              <h3 class="header3">Unity</h3>
+              <h3 class="header3">Unity <span><a class="backtoTopBtn" href="#simpleNavBar"><i class="far fa-caret-square-up"></i></a></span></h3>
               <p>Unity engine gave me a first glance of how fun and engaging of game development can be. Coding the character's behavior is as exciting as play the game itself. Each problem being solved is a XP <i class="fas fa-angle-double-up"></i> Gained!</p>
             </div>
           </div> <!-- row -->
@@ -224,27 +198,9 @@
         </div> <!-- skills-row container -->
       </div> <!-- skills -->
 
-      <hr>
 
-      <div class="skills">
-        <h2 class="header2">Other Certification</h2>
-        <div class="skill-row container">
-          <div class="row">
-            <div class="col-lg-4 col-md-4">
-              <img class="code-img" src="icons/scrumMaster.png" alt="scrumMaster-logo">
-            </div>
-            <div class="col-lg-8 col-md-8">
-              <h3 class="header3">Scrum master</h3>
-              <p>Certified for Professional Scrum master (PSM I) at <a href="https://www.scrum.org/certificates/595374" target="_blank">scrum.org</a> in 2020.</p>
-            </div>
-          </div> <!-- row -->
-        </div> <!-- skills-row container -->
-      </div> <!-- slills -->
-
-      <hr>
-
-      <div class="skills">
-        <h2 class="header2">Real world arts and crafts</h2>
+      <div class="skills" id="handCrafts">
+        <h2 class="header3">Handcrafts <span><a class="backtoTopBtn" href="#simpleNavBar"><i class="far fa-caret-square-up"></i></a></span></h2>
         <div class="skill-row container">
 
           <div class="row">
@@ -270,21 +226,38 @@
 
     <hr>
     <div class="contact-me">
-      <h2 class="header2">Get In Touch</h2>
+      <h2 class="header3">Get In Touch <span><a class="backtoTopBtn" href="#simpleNavBar"><i class="far fa-caret-square-up"></i></a></span></h2>
+      <p class="contact-message">I am open to freelance or collaboration from server architecture solution, web development, and game development. I am also down for projects such as building model houses and historical ships too!</p>
       <div class="space_holder"> </div>
-      <h3 class="header3">Got some ideas in mind?</h3>
-      <p class="contact-message">I am open to freelance or collaboration ranging from server architecture solution, web development, and game development. If you are looking for helping hands to finish building any historical ship model, I am also down for it too!</p>
-      <div class="space_holder"> </div>
-      <a class="btn" href="mailto:cnjohnniekwok@gmail.com">CONTACT ME</a>
+      <a class="btn btn-outline-light" href="mailto:cnjohnniekwok@gmail.com">CONTACT ME</a>
     </div> <!-- contact-me -->
 
     <hr>
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/johnniekwok/" target="_blank">LinkedIn</a>
-      <a class="footer-link" href="https://mewe.com/i/johnniekwok" target="_blank">MeWe</a>
-      <a class="footer-link" href="#" target="_blank">Blog</a>
-      <p class="copyright">© 2021 Johnnie Kwok</p>
-    </div> <!-- bottom-container -->
+
+    <footer class="footer bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container pt-4">
+        <section class="mb-4">
+          <!-- Google -->
+          <a class="btn btn-outline-light btn-floating m-1" href="mailto:cnjohnniekwok@gmail.com"><i class="fab fa-google"></i></a>
+          <!-- Linkedin -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/johnniekwok/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <!-- Github -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/cnjohnniekwok" target="_blank"><i class="fab fa-github"></i></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="copyright">
+        © <script>
+          document.write(new Date().getFullYear())
+        </script> Copyright
+        <a class="text-white nounderline" href="https://cnjohnniekwok.github.io/profile/" target="_blank">Johnnie Kwok@Mo.Co.</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
 
 
     <!-- jQuery and Bootstrap Bundle (includes Popper) -->
